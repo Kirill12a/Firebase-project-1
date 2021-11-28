@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func logoutAction(_ sender: Any) {
+        do{
+            try! Auth.auth().signOut()
+        }catch{
+            print(error.localizedDescription)
+        }
+    }
+    
 }
 

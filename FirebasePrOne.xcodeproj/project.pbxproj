@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56052FD19AB5D385860D4841 /* Pods_FirebasePrOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334DF965BF209F1DEEDB8B08 /* Pods_FirebasePrOne.framework */; };
 		D2E325932752DA2100D52FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E325922752DA2100D52FE5 /* AppDelegate.swift */; };
 		D2E325952752DA2100D52FE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E325942752DA2100D52FE5 /* SceneDelegate.swift */; };
 		D2E325972752DA2100D52FE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E325962752DA2100D52FE5 /* ViewController.swift */; };
 		D2E3259A2752DA2100D52FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E325982752DA2100D52FE5 /* Main.storyboard */; };
 		D2E3259C2752DA2200D52FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E3259B2752DA2200D52FE5 /* Assets.xcassets */; };
 		D2E3259F2752DA2200D52FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E3259D2752DA2200D52FE5 /* LaunchScreen.storyboard */; };
+		D2E325A72752DDB600D52FE5 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E325A62752DDB600D52FE5 /* AuthViewController.swift */; };
+		D2E325A92753D59900D52FE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2E325A82753D59900D52FE5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3163E4BE5117F0C0364DF1E0 /* Pods-FirebasePrOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebasePrOne.debug.xcconfig"; path = "Target Support Files/Pods-FirebasePrOne/Pods-FirebasePrOne.debug.xcconfig"; sourceTree = "<group>"; };
+		334DF965BF209F1DEEDB8B08 /* Pods_FirebasePrOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebasePrOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B9C5C5093CD53A66F5A9BB /* Pods-FirebasePrOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebasePrOne.release.xcconfig"; path = "Target Support Files/Pods-FirebasePrOne/Pods-FirebasePrOne.release.xcconfig"; sourceTree = "<group>"; };
 		D2E3258F2752DA2100D52FE5 /* FirebasePrOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebasePrOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E325922752DA2100D52FE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E325942752DA2100D52FE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		D2E3259B2752DA2200D52FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E3259E2752DA2200D52FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E325A02752DA2200D52FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E325A62752DDB600D52FE5 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		D2E325A82753D59900D52FE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56052FD19AB5D385860D4841 /* Pods_FirebasePrOne.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96E86EEC6A3EBF2DDD0D6790 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3163E4BE5117F0C0364DF1E0 /* Pods-FirebasePrOne.debug.xcconfig */,
+				42B9C5C5093CD53A66F5A9BB /* Pods-FirebasePrOne.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9BF335CAE1869854C6059D06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				334DF965BF209F1DEEDB8B08 /* Pods_FirebasePrOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2E325862752DA2100D52FE5 = {
 			isa = PBXGroup;
 			children = (
 				D2E325912752DA2100D52FE5 /* FirebasePrOne */,
 				D2E325902752DA2100D52FE5 /* Products */,
+				96E86EEC6A3EBF2DDD0D6790 /* Pods */,
+				9BF335CAE1869854C6059D06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +89,8 @@
 				D2E325942752DA2100D52FE5 /* SceneDelegate.swift */,
 				D2E325962752DA2100D52FE5 /* ViewController.swift */,
 				D2E325982752DA2100D52FE5 /* Main.storyboard */,
+				D2E325A62752DDB600D52FE5 /* AuthViewController.swift */,
+				D2E325A82753D59900D52FE5 /* GoogleService-Info.plist */,
 				D2E3259B2752DA2200D52FE5 /* Assets.xcassets */,
 				D2E3259D2752DA2200D52FE5 /* LaunchScreen.storyboard */,
 				D2E325A02752DA2200D52FE5 /* Info.plist */,
@@ -74,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2E325A32752DA2200D52FE5 /* Build configuration list for PBXNativeTarget "FirebasePrOne" */;
 			buildPhases = (
+				B4049CCB835ACD4F17A45A87 /* [CP] Check Pods Manifest.lock */,
 				D2E3258B2752DA2100D52FE5 /* Sources */,
 				D2E3258C2752DA2100D52FE5 /* Frameworks */,
 				D2E3258D2752DA2100D52FE5 /* Resources */,
+				8B49B6FFE7FDA4DDA87540E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E3259F2752DA2200D52FE5 /* LaunchScreen.storyboard in Resources */,
+				D2E325A92753D59900D52FE5 /* GoogleService-Info.plist in Resources */,
 				D2E3259C2752DA2200D52FE5 /* Assets.xcassets in Resources */,
 				D2E3259A2752DA2100D52FE5 /* Main.storyboard in Resources */,
 			);
@@ -133,11 +167,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B49B6FFE7FDA4DDA87540E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebasePrOne/Pods-FirebasePrOne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebasePrOne/Pods-FirebasePrOne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebasePrOne/Pods-FirebasePrOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4049CCB835ACD4F17A45A87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebasePrOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2E3258B2752DA2100D52FE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E325A72752DDB600D52FE5 /* AuthViewController.swift in Sources */,
 				D2E325972752DA2100D52FE5 /* ViewController.swift in Sources */,
 				D2E325932752DA2100D52FE5 /* AppDelegate.swift in Sources */,
 				D2E325952752DA2100D52FE5 /* SceneDelegate.swift in Sources */,
@@ -284,6 +361,7 @@
 		};
 		D2E325A42752DA2200D52FE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3163E4BE5117F0C0364DF1E0 /* Pods-FirebasePrOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +390,7 @@
 		};
 		D2E325A52752DA2200D52FE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B9C5C5093CD53A66F5A9BB /* Pods-FirebasePrOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
